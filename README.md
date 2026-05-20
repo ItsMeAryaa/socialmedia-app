@@ -77,7 +77,7 @@ http://localhost/socialmedia-app/public
 ### Laragon
 
 ```txt
-http://temanku.test
+http://socialmedia-app/public.test
 ```
 
 ---
