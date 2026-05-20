@@ -43,7 +43,7 @@
 1. Clone this repository
 
 ```bash
-git clone https://github.com/your-username/temanku.git
+git clone https://github.com/ItsMeAryaa/temanku.git
 ```
 
 2. Import the database
