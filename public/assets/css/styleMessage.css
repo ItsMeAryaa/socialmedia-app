@@ -1,0 +1,130 @@
+body {
+  background: #ece8e8;
+  color: #e0e0e0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.chat-box {
+  /* tinggi dan scroll vertikal */
+  height: 400px;
+  overflow-y: auto;
+  /* sembunyikan scrollbar horisontal */
+  overflow-x: hidden;
+
+  background: #fbfbfb;
+  padding: 10px;
+
+  /* Flex container, arah kolom */
+  display: flex;
+  flex-direction: column;
+  /* Stack dimulai di atas */
+  justify-content: flex-start;
+
+  /* (opsional) jarak antar message */
+  gap: 6px;
+}
+
+/** Override semua utility flex di #chatBox **/
+#chatBox {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.chat-message {
+  display: flex;
+  margin-bottom: 6px;
+  width: 100%;
+}
+
+.chat-message.me {
+  justify-content: flex-end;
+}
+
+.chat-message.them {
+  justify-content: flex-start;
+}
+
+.chat-bubble {
+  padding: 10px 14px;
+  border-radius: 18px;
+  max-width: 80%;
+  word-wrap: break-word;
+  white-space: pre-line;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.chat-bubble.me {
+  background-color: #00bcd4;
+  color: white;
+  border-bottom-right-radius: 0;
+}
+
+.chat-bubble.them {
+  background-color: #6c757d;
+  color: white;
+  border-bottom-left-radius: 0;
+}
+
+#filePreview {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .friend-list {
+    display: block;
+  }
+  .chat-room {
+    display: none !important;
+  }
+  .chat-room.active {
+    display: block !important;
+  }
+  .friend-list.hide {
+    display: none !important;
+  }
+}
+
+.chat-bubble.deleted {
+  font-style: italic;
+  text-align: center;
+  max-width: 60%;
+  cursor: default;
+  color: #3b3b3b;
+}
+
+.messenger-container {
+  background: #fbfbfb;
+}
+
+.friend-list {
+  background: #fbfbfb;
+}
+
+.btn-outline-info:hover {
+  color: white !important;
+}
+
+/* hijau */
+.status-dot.online {
+  background-color: #28a745 !important;
+  transition: background-color 0.3s ease;
+}
+
+/* abu-abu */
+.status-dot.offline {
+  background-color: #adb5bd !important;
+  transition: background-color 0.3s ease;
+}
+
+@media (max-width: 575.98px) {
+  .messenger-container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}

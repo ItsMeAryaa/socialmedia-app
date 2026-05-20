@@ -1,0 +1,49 @@
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #00bcd4 0%, #263238 100%);
+  color: #fff;
+}
+
+.main-card {
+  background: rgba(38, 50, 56, 0.96);
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 36px rgba(0,0,0,0.20);
+}
+
+.logo-circle {
+  width: 66px;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 auto 18px auto;
+}
+
+.brand-title {
+  color: #00bcd4;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 2.1rem;
+}
+
+.btn-cyan {
+  background: #00bcd4;
+  color: #fff;
+  border: none;
+}
+
+.btn-cyan:hover, .btn-cyan:focus {
+  background: #0097a7;
+  color: #fff;
+}
+
+.desc {
+  color: #b0bec5;
+}
+
+@media (max-width: 576px) {
+  .main-card {
+    padding: 1.3rem 0.7rem;
+  }
+}

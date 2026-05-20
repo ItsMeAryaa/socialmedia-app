@@ -1,0 +1,2 @@
+post_id: 27, share_type: whatsapp
+START: post_id=27, share_type=whatsapp

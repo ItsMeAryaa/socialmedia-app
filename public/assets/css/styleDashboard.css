@@ -1,0 +1,176 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('/Fonts/Poppins-Regular.ttf');
+  src: url('/Fonts/Poppins-Regular.ttf') format('ttf'), url('/Fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+body {
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+.form-control {
+  width: 350px;
+}
+
+.container footer {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.row {
+  margin: 0px;
+}
+
+.text-center {
+  margin-top: 5px;
+}
+
+.img-kategori {
+  width: 100px;
+  height: 100px;
+}
+
+.img-kategori:hover{
+  transform: scale(1.2);
+}
+
+.kartu {
+  cursor: default;
+}
+
+.kartu a {
+  cursor: pointer;
+}
+
+.kartu:hover {
+  border: 2px solid #2d2d2d;
+}
+
+.col a {
+  text-decoration: none;
+}
+
+.col a img {
+  width: 50px;
+  height: 50px;
+}
+
+.col span a {
+  text-decoration: none;
+}
+
+.navbar-brand span {
+  color: aqua;
+}
+
+.carousel-item img {
+  border-radius: 10px;
+}
+
+.badge {
+  position: absolute;
+  margin-top: 23px;
+  margin-left: -3px;
+}
+
+.garis {
+  border-bottom: 2px solid #ffffff;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.nav-link:hover {
+  background-color: gray;
+}
+
+.display-4 {
+  font-weight: bold;
+}
+
+.card-body-icon {
+  position: absolute;
+  z-index: 0;
+  top: 10px;
+  right: 4px;
+  opacity: 0.4;
+  font-size: 90px;
+}
+
+.card-body-icon .bi {
+  position: relative;
+  font-size: 120px;
+  right: 8px;
+  bottom: 20px;
+}
+
+.img-keranjang {
+  width: 80px;
+}
+
+#preview {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 10px 0;
+  border: 1px solid #797979;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* Media Queries for Small Screen */
+@media only screen and (max-width: 600px) {
+  /* Navbar */
+  .navbar {
+    width: 500px;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+  }
+
+  .row {
+    width: 162px;
+  }
+
+  .row .col-md-2 .nav-link {
+    font-size: 10px;
+  }
+
+  .nav-link img {
+    width: 15%;
+  }
+
+  /* Content */
+  .dash-cont {
+    position: absolute;
+    padding-top: 0;
+  }
+
+  .dash-cont .main {
+    padding-left: 150px;
+  }
+
+  .dash-cont h3 {
+    font-size: 20px;
+  }
+
+  .dash-cont img {
+    width: 25px;
+  }
+
+  .dash-row {
+    padding-left: 150px;
+  }
+
+  .dash-row .card {
+    width: 10%;
+    font-size: 5px;
+  }
+}
+
+.btn-outline-info:hover {
+  color: white;
+}
