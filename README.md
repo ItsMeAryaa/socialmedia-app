@@ -71,7 +71,7 @@ C:\laragon\www\
 ### XAMPP
 
 ```txt
-http://localhost/temanku
+http://localhost/socialmedia-app/public
 ```
 
 ### Laragon
