@@ -498,7 +498,7 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `email`, `password`, `created_at`, `last_active`, `reset_token`, `reset_token_expiry`, `security_question`, `security_answer`) VALUES
 (1, 'arya@gmail.com', '$2y$10$6FKfFWS9eNs98DYxS23mueCwomLruJRKhwl9coRPfXIFPTjz2Z8hq', '2025-07-08 12:11:59', '2026-04-10 14:47:31', NULL, NULL, 'Dimana kamu pertama kali liburan dengan keluarga?', 'Bali'),
 (2, 'dangkerdida@gmail.com', '$2y$10$9P0ScB.EkpGrQ1Dd3F/6Nu663DumOZi5phz0pSaT3sTR7kQxLMlyW', '2025-07-08 15:14:13', '2025-07-21 17:00:56', '125399', '2025-07-21 08:41:56', 'Dimana kamu pertama kali liburan dengan keluarga?', 'Alor'),
-(3, 'ariyantodida@gmail.com', '$2y$10$tUkganGqfucXv6q9O9yuVevfeCn5ZGKcyXBzwUVTc08IkpkvytMIO', '2025-07-08 17:35:00', '2025-07-16 17:37:01', NULL, NULL, 'Dimana kamu pertama kali liburan dengan keluarga?', 'Semau');
+(3, 'ariyanto@gmail.com', '$2y$10$tUkganGqfucXv6q9O9yuVevfeCn5ZGKcyXBzwUVTc08IkpkvytMIO', '2025-07-08 17:35:00', '2025-07-16 17:37:01', NULL, NULL, 'Dimana kamu pertama kali liburan dengan keluarga?', 'Semau');
 
 --
 -- Indexes for dumped tables
